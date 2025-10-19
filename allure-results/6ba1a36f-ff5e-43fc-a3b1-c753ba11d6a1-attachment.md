@@ -1,0 +1,140 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - paragraph [ref=e8]:
+        - text: In today's world, it feels like every company is looking to profit from your data. This can make it difficult to find the right app to improve your habits. Habitica uses cookies that store data only to analyze performance, handle support requests, and provide you with the best possible gamified experience. You can change this at any time from your account settings. To learn more, review our
+        - link "Privacy Policy" [ref=e9] [cursor=pointer]:
+          - /url: /static/privacy
+        - text: .
+      - generic [ref=e10]:
+        - button "Accept All Cookies" [ref=e11] [cursor=pointer]
+        - button "Deny Non-Essential Cookies" [ref=e12] [cursor=pointer]
+        - generic [ref=e13] [cursor=pointer]: Manage Your Privacy Preferences
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /static/home
+        - img [ref=e18]
+      - generic [ref=e24] [cursor=pointer]:
+        - img [ref=e26]
+        - generic [ref=e32]: Continue with Google
+      - generic [ref=e35] [cursor=pointer]:
+        - img [ref=e37]
+        - generic [ref=e39]: Continue with Apple
+      - generic [ref=e41]: OR
+      - generic [ref=e42]:
+        - generic [ref=e43]: Email
+        - textbox "Email" [ref=e44]:
+          - /placeholder: e.g., gryphon@example.com
+      - generic [ref=e45]:
+        - generic [ref=e46]: Password
+        - textbox "Password" [ref=e47]:
+          - /placeholder: e.g., ******************
+      - generic [ref=e48]:
+        - generic [ref=e49]: Confirm Password
+        - textbox "Confirm Password" [ref=e50]:
+          - /placeholder: Make sure it's the same password!
+      - generic [ref=e51]:
+        - button "Continue" [disabled] [ref=e52]
+        - link "Already have a Habitica account? Log in." [ref=e54] [cursor=pointer]:
+          - /url: /login
+          - generic [ref=e55]:
+            - text: Already have a Habitica account?
+            - strong [ref=e56]: Log in.
+  - contentinfo [ref=e61]:
+    - generic [ref=e62]:
+      - heading "Product" [level=3] [ref=e63]
+      - list [ref=e64]:
+        - listitem [ref=e65]:
+          - link "iOS App" [ref=e66] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/habitica/id994882113?ls=1&mt=8
+        - listitem [ref=e67]:
+          - link "Android App" [ref=e68] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica
+        - listitem [ref=e69]:
+          - link "Group Plans" [ref=e70] [cursor=pointer]:
+            - /url: /static/group-plans
+        - listitem [ref=e71]:
+          - link "How It Works" [ref=e72] [cursor=pointer]:
+            - /url: /static/features
+    - generic [ref=e73]:
+      - heading "Company" [level=3] [ref=e74]
+      - list [ref=e75]:
+        - listitem [ref=e76]:
+          - link "Contact Us" [ref=e77] [cursor=pointer]:
+            - /url: mailto:admin@habitica.com
+        - listitem [ref=e78]:
+          - link "Press Kit" [ref=e79] [cursor=pointer]:
+            - /url: /static/press-kit
+        - listitem [ref=e80]:
+          - link "Blog" [ref=e81] [cursor=pointer]:
+            - /url: https://habitica.wordpress.com/
+        - listitem [ref=e82]: News
+    - generic [ref=e83]:
+      - heading "Community" [level=3] [ref=e84]
+      - list [ref=e85]:
+        - listitem [ref=e86]:
+          - link "Community Guidelines" [ref=e87] [cursor=pointer]:
+            - /url: /static/community-guidelines
+        - listitem [ref=e88]:
+          - link "Hall of Heroes" [ref=e89] [cursor=pointer]:
+            - /url: /hall/contributors
+        - listitem [ref=e90]:
+          - link "Contributing to Habitica" [ref=e91] [cursor=pointer]:
+            - /url: https://github.com/HabitRPG/habitica/wiki/Contributing-to-Habitica
+        - listitem [ref=e92]:
+          - link "Translate Habitica" [ref=e93] [cursor=pointer]:
+            - /url: https://translate.habitica.com/
+    - generic [ref=e94]:
+      - heading "Support" [level=3] [ref=e95]
+      - list [ref=e96]:
+        - listitem [ref=e97]:
+          - link "FAQ" [ref=e98] [cursor=pointer]:
+            - /url: /static/faq
+        - listitem [ref=e99]:
+          - link "Report a Bug" [ref=e100] [cursor=pointer]:
+            - /url: mailto:admin@habitica.com?subject=Habitica Web Bug Report
+        - listitem [ref=e101]:
+          - link "Request a Feature" [ref=e102] [cursor=pointer]:
+            - /url: https://docs.google.com/forms/d/e/1FAIpQLScPhrwq_7P1C6PTrI3lbvTsvqGyTNnGzp1ugi1Ml0PFee_p5g/viewform?usp=sf_link
+    - generic [ref=e103]:
+      - heading "Developers" [level=3] [ref=e104]
+      - list [ref=e105]:
+        - listitem [ref=e106]:
+          - link "API v3" [ref=e107] [cursor=pointer]:
+            - /url: /apidoc
+        - listitem [ref=e108]: Data Display Tool
+        - listitem [ref=e109]:
+          - link "Guidance for Blacksmiths" [ref=e110] [cursor=pointer]:
+            - /url: https://habitica.fandom.com/wiki/Guidance_for_Blacksmiths
+    - generic [ref=e112]:
+      - heading "Help Support Habitica" [level=3] [ref=e113]
+      - paragraph [ref=e114]: Habitica is an open source project that depends on our users for support. The money you spend on gems helps us keep the servers running, maintain a small staff, develop new features, and provide incentives for our volunteers
+    - button "💜 Donate to Habitica" [ref=e116] [cursor=pointer]:
+      - generic [ref=e117]: 💜 Donate to Habitica
+    - generic [ref=e119]:
+      - heading "Social" [level=3] [ref=e120]
+      - generic [ref=e121]:
+        - link [ref=e122] [cursor=pointer]:
+          - /url: https://www.instagram.com/habitica/
+          - img [ref=e124]
+        - link [ref=e126] [cursor=pointer]:
+          - /url: https://bsky.app/profile/habitica.com
+          - img [ref=e128]
+        - link [ref=e130] [cursor=pointer]:
+          - /url: https://www.facebook.com/Habitica/
+          - img [ref=e132]
+        - link [ref=e134] [cursor=pointer]:
+          - /url: http://blog.habitrpg.com/
+          - img [ref=e136]
+    - separator [ref=e140]
+    - generic [ref=e142]: © 2025 Habitica. All rights reserved.
+    - img [ref=e145]
+    - generic [ref=e147]:
+      - link "Privacy Policy" [ref=e149] [cursor=pointer]:
+        - /url: /static/privacy
+      - link "Terms of Service" [ref=e151] [cursor=pointer]:
+        - /url: /static/terms
+```

@@ -1,54 +1,13 @@
-<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="13.940605000000001">
-<testsuite name="Register\register.spec.ts" timestamp="2025-10-18T06:56:44.780Z" hostname="" tests="1" failures="1" skipped="0" time="8.993" errors="0">
-<testcase name=" @smoke To verify the Register form" classname="Register\register.spec.ts" time="8.993">
-<failure message="register.spec.ts:4:5  @smoke To verify the Register form" type="FAILURE">
-<![CDATA[  Register\register.spec.ts:4:5 ›  @smoke To verify the Register form ──────────────────────────────
-
-    Error: expect(received).toBeGreaterThan(expected)
-
-    Expected: > 10
-    Received:   6
-
-       at ..\Pages\register.page.ts:34
-
-      32 |         await this.Password.fill('123456');
-      33 |         const passowrdvalue = await this.Password.inputValue();
-    > 34 |         expect(passowrdvalue.length).toBeGreaterThan(10);
-         |                                      ^
-      35 |         expect(passowrdvalue).toBe('123456789');
-      36 |         
-      37 |     }
-        at Register.password (C:\Habitica Project\Pages\register.page.ts:34:38)
-        at C:\Habitica Project\tests\Register\register.spec.ts:9:4
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ..\test-results\Register-register--smoke-To-verify-the-Register-form\test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    ..\test-results\Register-register--smoke-To-verify-the-Register-form\video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: ..\test-results\Register-register--smoke-To-verify-the-Register-form\error-context.md
-
-    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
-    ..\test-results\Register-register--smoke-To-verify-the-Register-form\trace.zip
-    Usage:
-
-        npx playwright show-trace ..\test-results\Register-register--smoke-To-verify-the-Register-form\trace.zip
-
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-]]>
-</failure>
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="18.034146999999997">
+<testsuite name="Register\register.spec.ts" timestamp="2025-10-19T06:33:39.106Z" hostname="" tests="1" failures="0" skipped="0" time="13.811" errors="0">
+<testcase name="Register test cases › To verify the resgiter form with inavlid data" classname="Register\register.spec.ts" time="13.811">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results\Register-register--smoke-To-verify-the-Register-form\test-failed-1.png]]
+[[ATTACHMENT|test-results\Register-register-Register-0e4b2-iter-form-with-inavlid-data\test-finished-1.png]]
 
-[[ATTACHMENT|test-results\Register-register--smoke-To-verify-the-Register-form\video.webm]]
+[[ATTACHMENT|test-results\Register-register-Register-0e4b2-iter-form-with-inavlid-data\video.webm]]
 
-[[ATTACHMENT|test-results\Register-register--smoke-To-verify-the-Register-form\error-context.md]]
-
-[[ATTACHMENT|test-results\Register-register--smoke-To-verify-the-Register-form\trace.zip]]
+[[ATTACHMENT|test-results\Register-register-Register-0e4b2-iter-form-with-inavlid-data\trace.zip]]
 ]]>
 </system-out>
 </testcase>
