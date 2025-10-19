@@ -1,0 +1,383 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - navigation [ref=e6]:
+    - generic "Habitica" [ref=e7]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+    - generic [ref=e12]:
+      - list [ref=e13]:
+        - listitem [ref=e14]:
+          - link "Tasks" [ref=e15] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e16]:
+          - link "Inventory" [ref=e17] [cursor=pointer]:
+            - /url: /inventory/items
+          - generic:
+            - link "Items" [ref=e18] [cursor=pointer]:
+              - /url: /inventory/items
+            - link "Equipment" [ref=e19] [cursor=pointer]:
+              - /url: /inventory/equipment
+            - link "Pets and Mounts" [ref=e20] [cursor=pointer]:
+              - /url: /inventory/stable
+        - listitem [ref=e21]:
+          - link "Shops" [ref=e22] [cursor=pointer]:
+            - /url: /shops/market
+          - generic:
+            - link "Market" [ref=e23] [cursor=pointer]:
+              - /url: /shops/market
+            - link "Quests" [ref=e24] [cursor=pointer]:
+              - /url: /shops/quests
+            - link "Customizations" [ref=e25] [cursor=pointer]:
+              - /url: /shops/customizations
+            - link "Seasonal Shop" [ref=e26] [cursor=pointer]:
+              - /url: /shops/seasonal
+            - link "Time Travelers" [ref=e27] [cursor=pointer]:
+              - /url: /shops/time
+        - listitem [ref=e28]:
+          - link "Party" [ref=e29] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e30]:
+          - link "Group" [ref=e31] [cursor=pointer]:
+            - /url: /group-plans
+        - listitem [ref=e32]:
+          - link "Challenges" [ref=e33] [cursor=pointer]:
+            - /url: /challenges/myChallenges
+          - generic:
+            - link "My Challenges" [ref=e34] [cursor=pointer]:
+              - /url: /challenges/myChallenges
+            - link "Discover Challenges" [ref=e35] [cursor=pointer]:
+              - /url: /challenges/findChallenges
+        - listitem [ref=e36]:
+          - link "Help" [ref=e37] [cursor=pointer]:
+            - /url: /static/faq
+          - generic:
+            - link "FAQ" [ref=e38] [cursor=pointer]:
+              - /url: /static/faq
+            - link "Overview for New Users" [ref=e39] [cursor=pointer]:
+              - /url: /static/overview
+            - generic [ref=e40] [cursor=pointer]: Report a Bug
+            - generic [ref=e41] [cursor=pointer]: Ask a Question
+            - link "Request a Feature" [ref=e42] [cursor=pointer]:
+              - /url: https://docs.google.com/forms/d/e/1FAIpQLScPhrwq_7P1C6PTrI3lbvTsvqGyTNnGzp1ugi1Ml0PFee_p5g/viewform?usp=sf_link
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - link "Gems" [ref=e45] [cursor=pointer]:
+            - /url: "#buy-gems"
+            - img [ref=e46]
+          - text: "0"
+        - generic [ref=e58]:
+          - generic "Gold" [ref=e59]:
+            - img [ref=e60]
+          - text: "0"
+      - generic [ref=e67]:
+        - link "Sync" [ref=e68] [cursor=pointer]:
+          - img [ref=e70]
+        - button "Notifications" [ref=e72] [cursor=pointer]:
+          - generic "Notifications" [ref=e75]:
+            - img [ref=e77]
+            - img [ref=e80]
+        - button "User Messages Customize Avatar Profile Stats Achievements Settings Subscription Log Out Looking for More Items? Habitica subscribers can find double the random items each day and receive monthly mystery items! Learn More" [active] [pressed] [ref=e82] [cursor=pointer]:
+          - generic "User" [ref=e85]:
+            - img [ref=e87]
+          - generic [ref=e90]:
+            - generic [ref=e92]: Messages
+            - generic [ref=e93]: Customize Avatar
+            - generic [ref=e94]: Profile
+            - generic [ref=e95]: Stats
+            - generic [ref=e96]: Achievements
+            - link "Settings" [ref=e97]:
+              - /url: /user/settings/general
+            - link "Subscription" [ref=e98]:
+              - /url: /user/settings/subscription
+            - generic [ref=e99]: Log Out
+            - listitem [ref=e100]:
+              - generic [ref=e101]: Looking for More Items?
+              - img [ref=e102]
+              - paragraph [ref=e103]: Habitica subscribers can find double the random items each day and receive monthly mystery items!
+              - button "Learn More" [ref=e104]
+  - generic [ref=e105]:
+    - generic [ref=e107]:
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - generic "Warrior" [ref=e122]:
+            - img [ref=e123]
+          - generic [ref=e146]:
+            - heading "akash1414test" [level=3] [ref=e147]:
+              - generic [ref=e148]: akash1414test
+            - generic [ref=e149]: "@akash1414test•Level 1 Warrior"
+        - generic [ref=e150]:
+          - img [ref=e152]
+          - generic [ref=e167]: 50 / 50
+        - generic [ref=e168]:
+          - img [ref=e170]
+          - generic [ref=e179]: 0 / 25
+      - generic [ref=e181]:
+        - heading "Play Habitica with Others" [level=3] [ref=e182]
+        - generic [ref=e183]:
+          - text: Start your own Party or join an existing one
+          - text: to take on Quests and boost your motivation!
+        - button "Get Started" [ref=e184] [cursor=pointer]
+    - generic [ref=e187]:
+      - generic [ref=e188]:
+        - generic [ref=e190]:
+          - textbox "Search" [ref=e191]
+          - button "Tags" [ref=e192] [cursor=pointer]:
+            - img [ref=e194]
+            - generic [ref=e196]: Tags
+        - generic [ref=e198] [cursor=pointer]:
+          - img [ref=e200]
+          - generic [ref=e202]: Add Task
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - generic [ref=e205]:
+            - heading "Habits" [level=2] [ref=e206]
+            - generic [ref=e207]:
+              - generic [ref=e208] [cursor=pointer]: All
+              - generic [ref=e209] [cursor=pointer]: Weak
+              - generic [ref=e210] [cursor=pointer]: Strong
+          - generic [ref=e211]:
+            - textbox "Add a Habit" [ref=e212]
+            - generic [ref=e213]:
+              - img [ref=e215]
+              - heading "These are your Habits" [level=3] [ref=e217]
+              - generic [ref=e218]: Habits don't have a rigid schedule. You can check them off multiple times per day.
+            - generic [ref=e219]:
+              - generic [ref=e222]:
+                - button "Score up" [disabled] [ref=e224] [cursor=pointer]:
+                  - img [ref=e226]
+                - generic [ref=e228]:
+                  - generic [ref=e229] [cursor=pointer]:
+                    - generic [ref=e230]:
+                      - heading "Click here to edit this into a bad habit you'd like to quit" [level=3] [ref=e231]:
+                        - paragraph [ref=e232]: Click here to edit this into a bad habit you'd like to quit
+                      - button [ref=e233]:
+                        - img [ref=e237]
+                    - paragraph [ref=e240]: Or delete from the edit screen
+                  - generic [ref=e243]:
+                    - img [ref=e245]
+                    - generic [ref=e247]: "0"
+                - button "Score down" [ref=e249] [cursor=pointer]:
+                  - img [ref=e251]
+              - generic [ref=e255]:
+                - button "Score up" [ref=e257] [cursor=pointer]:
+                  - img [ref=e259]
+                - generic [ref=e261]:
+                  - generic [ref=e262] [cursor=pointer]:
+                    - generic [ref=e263]:
+                      - heading "Add a task to Habitica" [level=3] [ref=e264]:
+                        - paragraph [ref=e265]: Add a task to Habitica
+                      - button [ref=e266]:
+                        - img [ref=e270]
+                    - paragraph [ref=e273]: Either a Habit, a Daily, or a To Do
+                  - generic [ref=e276]:
+                    - img [ref=e278]
+                    - generic [ref=e280]: "0"
+                - button "Score down" [disabled] [ref=e282] [cursor=pointer]:
+                  - img [ref=e284]
+        - generic [ref=e286]:
+          - generic [ref=e287]:
+            - heading "Dailies" [level=2] [ref=e288]
+            - generic [ref=e289]:
+              - generic [ref=e290] [cursor=pointer]: All
+              - generic [ref=e291] [cursor=pointer]: Due
+              - generic [ref=e292] [cursor=pointer]: Not Due
+          - generic [ref=e293]:
+            - textbox "Add a Daily" [ref=e294]
+            - generic [ref=e295]:
+              - img [ref=e297]
+              - heading "These are your Dailies" [level=3] [ref=e299]
+              - generic [ref=e300]: Dailies repeat on a regular basis. Choose the schedule that works best for you!
+        - generic [ref=e301]:
+          - generic [ref=e302]:
+            - heading "To Do's" [level=2] [ref=e303]
+            - generic [ref=e304]: "1"
+            - generic [ref=e305]:
+              - generic [ref=e306] [cursor=pointer]: Active
+              - generic [ref=e307] [cursor=pointer]: Scheduled
+              - generic [ref=e308] [cursor=pointer]: Complete
+          - generic [ref=e309]:
+            - textbox "Add a To Do" [ref=e310]
+            - generic [ref=e311]:
+              - img [ref=e313]
+              - heading "These are your To Do's" [level=3] [ref=e315]
+              - generic [ref=e316]: To Do's need to be completed once. Add checklists to your To Do's to increase their value.
+            - generic [ref=e320]:
+              - checkbox [ref=e322] [cursor=pointer]
+              - generic [ref=e324] [cursor=pointer]:
+                - generic [ref=e325]:
+                  - heading "Join Habitica (Check me off!)" [level=3] [ref=e326]:
+                    - paragraph [ref=e327]: Join Habitica (Check me off!)
+                  - button [ref=e328]:
+                    - img [ref=e332]
+                - paragraph [ref=e335]: You can either complete this To Do, edit it, or remove it.
+        - generic [ref=e336]:
+          - generic [ref=e337]:
+            - heading "Rewards" [level=2] [ref=e338]
+            - generic [ref=e339]:
+              - generic [ref=e340] [cursor=pointer]: All
+              - generic [ref=e341] [cursor=pointer]: Custom
+              - generic [ref=e342] [cursor=pointer]: Wishlist
+          - generic [ref=e343]:
+            - textbox "Add a Reward" [ref=e344]
+            - generic [ref=e348]:
+              - generic [ref=e350] [cursor=pointer]:
+                - generic [ref=e351]:
+                  - heading "Reward yourself" [level=3] [ref=e352]:
+                    - paragraph [ref=e353]: Reward yourself
+                  - button [ref=e354]:
+                    - img [ref=e358]
+                - paragraph [ref=e361]: Watch TV, play a game, eat a treat, it's up to you!
+              - generic [ref=e362] [cursor=pointer]:
+                - img [ref=e364]
+                - generic [ref=e371]: "10"
+            - generic [ref=e372]:
+              - generic [ref=e375] [cursor=pointer]:
+                - img [ref=e378]
+                - generic [ref=e379]:
+                  - img [ref=e381]
+                  - generic [ref=e388]: "90"
+              - generic [ref=e391] [cursor=pointer]:
+                - img [ref=e394]
+                - generic [ref=e395]:
+                  - img [ref=e397]
+                  - generic [ref=e404]: "90"
+              - generic [ref=e407] [cursor=pointer]:
+                - img [ref=e410]
+                - generic [ref=e411]:
+                  - img [ref=e413]
+                  - generic [ref=e420]: "60"
+              - generic [ref=e423] [cursor=pointer]:
+                - img [ref=e426]
+                - generic [ref=e427]:
+                  - img [ref=e429]
+                  - generic [ref=e436]: "70"
+              - generic [ref=e439] [cursor=pointer]:
+                - img [ref=e441]
+                - generic [ref=e442]:
+                  - img [ref=e444]
+                  - generic [ref=e451]: "1"
+              - generic [ref=e454] [cursor=pointer]:
+                - img [ref=e456]
+                - generic [ref=e457]:
+                  - img [ref=e459]
+                  - generic [ref=e466]: "30"
+              - generic [ref=e469] [cursor=pointer]:
+                - img [ref=e471]
+                - generic [ref=e472]:
+                  - img [ref=e474]
+                  - generic [ref=e481]: "20"
+              - generic [ref=e484] [cursor=pointer]:
+                - img [ref=e486]
+                - generic [ref=e487]:
+                  - img [ref=e489]
+                  - generic [ref=e496]: "15"
+              - generic [ref=e499] [cursor=pointer]:
+                - img [ref=e501]
+                - generic [ref=e502]:
+                  - img [ref=e504]
+                  - generic [ref=e511]: "25"
+              - generic [ref=e514] [cursor=pointer]:
+                - img [ref=e516]
+                - generic [ref=e517]:
+                  - img [ref=e519]
+                  - generic [ref=e526]: "100"
+  - contentinfo [ref=e528]:
+    - generic [ref=e529]:
+      - heading "Product" [level=3] [ref=e530]
+      - list [ref=e531]:
+        - listitem [ref=e532]:
+          - link "iOS App" [ref=e533] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/habitica/id994882113?ls=1&mt=8
+        - listitem [ref=e534]:
+          - link "Android App" [ref=e535] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica
+        - listitem [ref=e536]:
+          - link "Group Plans" [ref=e537] [cursor=pointer]:
+            - /url: /group-plans
+        - listitem [ref=e538]:
+          - link "How It Works" [ref=e539] [cursor=pointer]:
+            - /url: /static/features
+    - generic [ref=e540]:
+      - heading "Company" [level=3] [ref=e541]
+      - list [ref=e542]:
+        - listitem [ref=e543]:
+          - link "Contact Us" [ref=e544] [cursor=pointer]:
+            - /url: mailto:admin@habitica.com
+        - listitem [ref=e545]:
+          - link "Press Kit" [ref=e546] [cursor=pointer]:
+            - /url: /static/press-kit
+        - listitem [ref=e547]:
+          - link "Blog" [ref=e548] [cursor=pointer]:
+            - /url: https://habitica.wordpress.com/
+        - listitem [ref=e549]: News
+    - generic [ref=e550]:
+      - heading "Community" [level=3] [ref=e551]
+      - list [ref=e552]:
+        - listitem [ref=e553]:
+          - link "Community Guidelines" [ref=e554] [cursor=pointer]:
+            - /url: /static/community-guidelines
+        - listitem [ref=e555]:
+          - link "Hall of Heroes" [ref=e556] [cursor=pointer]:
+            - /url: /hall/contributors
+        - listitem [ref=e557]:
+          - link "Contributing to Habitica" [ref=e558] [cursor=pointer]:
+            - /url: https://github.com/HabitRPG/habitica/wiki/Contributing-to-Habitica
+        - listitem [ref=e559]:
+          - link "Translate Habitica" [ref=e560] [cursor=pointer]:
+            - /url: https://translate.habitica.com/
+    - generic [ref=e561]:
+      - heading "Support" [level=3] [ref=e562]
+      - list [ref=e563]:
+        - listitem [ref=e564]:
+          - link "FAQ" [ref=e565] [cursor=pointer]:
+            - /url: /static/faq
+        - listitem [ref=e566]:
+          - link "Report a Bug" [ref=e567] [cursor=pointer]:
+            - /url: ""
+        - listitem [ref=e568]:
+          - link "Request a Feature" [ref=e569] [cursor=pointer]:
+            - /url: https://docs.google.com/forms/d/e/1FAIpQLScPhrwq_7P1C6PTrI3lbvTsvqGyTNnGzp1ugi1Ml0PFee_p5g/viewform?usp=sf_link
+    - generic [ref=e570]:
+      - heading "Developers" [level=3] [ref=e571]
+      - list [ref=e572]:
+        - listitem [ref=e573]:
+          - link "API v3" [ref=e574] [cursor=pointer]:
+            - /url: /apidoc
+        - listitem [ref=e575]:
+          - link "Data Display Tool" [ref=e576] [cursor=pointer]:
+            - /url: https://tools.habitica.com/?uuid=cbdea45d-a6d4-4a54-bac7-7ca9a5c4450d
+        - listitem [ref=e577]:
+          - link "Guidance for Blacksmiths" [ref=e578] [cursor=pointer]:
+            - /url: https://habitica.fandom.com/wiki/Guidance_for_Blacksmiths
+    - generic [ref=e580]:
+      - heading "Help Support Habitica" [level=3] [ref=e581]
+      - paragraph [ref=e582]: Habitica is an open source project that depends on our users for support. The money you spend on gems helps us keep the servers running, maintain a small staff, develop new features, and provide incentives for our volunteers
+    - button "💜 Donate to Habitica" [ref=e584] [cursor=pointer]:
+      - generic [ref=e585]: 💜 Donate to Habitica
+    - generic [ref=e587]:
+      - heading "Social" [level=3] [ref=e588]
+      - generic [ref=e589]:
+        - link [ref=e590] [cursor=pointer]:
+          - /url: https://www.instagram.com/habitica/
+          - img [ref=e592]
+        - link [ref=e594] [cursor=pointer]:
+          - /url: https://bsky.app/profile/habitica.com
+          - img [ref=e596]
+        - link [ref=e598] [cursor=pointer]:
+          - /url: https://www.facebook.com/Habitica/
+          - img [ref=e600]
+        - link [ref=e602] [cursor=pointer]:
+          - /url: http://blog.habitrpg.com/
+          - img [ref=e604]
+    - separator [ref=e608]
+    - generic [ref=e610]: © 2025 Habitica. All rights reserved.
+    - img [ref=e613]
+    - generic [ref=e615]:
+      - link "Privacy Policy" [ref=e617] [cursor=pointer]:
+        - /url: /static/privacy
+      - link "Terms of Service" [ref=e619] [cursor=pointer]:
+        - /url: /static/terms
+```

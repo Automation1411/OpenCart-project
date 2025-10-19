@@ -1,2 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","7650","@smoke To verify the Register form","","2025-10-17","passed","2025-10-17","","Register\register.spec.ts","",""
+"","13025","To verify the Register form with valid crede","","2025-10-19","passed","2025-10-19","Register test cases","Register\register.spec.ts","",""
+"","15403","@smoke To verify the Register form","","2025-10-19","passed","2025-10-19","","Register\register.spec.ts","",""
+"","15099","To verify the resgiter form with inavlid data","","2025-10-19","passed","2025-10-19","Register test cases","Register\register.spec.ts","",""

@@ -1,0 +1,126 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - paragraph [ref=e8]:
+        - text: In today's world, it feels like every company is looking to profit from your data. This can make it difficult to find the right app to improve your habits. Habitica uses cookies that store data only to analyze performance, handle support requests, and provide you with the best possible gamified experience. You can change this at any time from your account settings. To learn more, review our
+        - link "Privacy Policy" [ref=e9] [cursor=pointer]:
+          - /url: /static/privacy
+        - text: .
+      - generic [ref=e10]:
+        - button "Accept All Cookies" [ref=e11] [cursor=pointer]
+        - button "Deny Non-Essential Cookies" [ref=e12] [cursor=pointer]
+        - generic [ref=e13] [cursor=pointer]: Manage Your Privacy Preferences
+    - generic [ref=e14]:
+      - img [ref=e15]
+      - heading "What should we call you?" [level=1] [ref=e16]
+      - generic [ref=e17]:
+        - textbox "Username" [active] [ref=e18]: vikashtest
+        - paragraph [ref=e19]: Usernames can be changed at any time. They must be 1 to 20 characters, containing only letters a to z, numbers 0 to 9, hyphens, or underscores.
+        - generic [ref=e20]:
+          - checkbox "You confirm that you are at least 18 years old, and that you have read and agree to our Terms of Service and Privacy Policy" [ref=e21]
+          - generic [ref=e22]:
+            - text: You confirm that you are at least 18 years old, and that you have read and agree to our
+            - link "Terms of Service" [ref=e23] [cursor=pointer]:
+              - /url: /static/terms
+            - text: and
+            - link "Privacy Policy" [ref=e24] [cursor=pointer]:
+              - /url: /static/privacy
+        - button "Get Started" [disabled] [ref=e25]
+  - contentinfo [ref=e30]:
+    - generic [ref=e31]:
+      - heading "Product" [level=3] [ref=e32]
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - link "iOS App" [ref=e35] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/habitica/id994882113?ls=1&mt=8
+        - listitem [ref=e36]:
+          - link "Android App" [ref=e37] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica
+        - listitem [ref=e38]:
+          - link "Group Plans" [ref=e39] [cursor=pointer]:
+            - /url: /static/group-plans
+        - listitem [ref=e40]:
+          - link "How It Works" [ref=e41] [cursor=pointer]:
+            - /url: /static/features
+    - generic [ref=e42]:
+      - heading "Company" [level=3] [ref=e43]
+      - list [ref=e44]:
+        - listitem [ref=e45]:
+          - link "Contact Us" [ref=e46] [cursor=pointer]:
+            - /url: mailto:admin@habitica.com
+        - listitem [ref=e47]:
+          - link "Press Kit" [ref=e48] [cursor=pointer]:
+            - /url: /static/press-kit
+        - listitem [ref=e49]:
+          - link "Blog" [ref=e50] [cursor=pointer]:
+            - /url: https://habitica.wordpress.com/
+        - listitem [ref=e51]: News
+    - generic [ref=e52]:
+      - heading "Community" [level=3] [ref=e53]
+      - list [ref=e54]:
+        - listitem [ref=e55]:
+          - link "Community Guidelines" [ref=e56] [cursor=pointer]:
+            - /url: /static/community-guidelines
+        - listitem [ref=e57]:
+          - link "Hall of Heroes" [ref=e58] [cursor=pointer]:
+            - /url: /hall/contributors
+        - listitem [ref=e59]:
+          - link "Contributing to Habitica" [ref=e60] [cursor=pointer]:
+            - /url: https://github.com/HabitRPG/habitica/wiki/Contributing-to-Habitica
+        - listitem [ref=e61]:
+          - link "Translate Habitica" [ref=e62] [cursor=pointer]:
+            - /url: https://translate.habitica.com/
+    - generic [ref=e63]:
+      - heading "Support" [level=3] [ref=e64]
+      - list [ref=e65]:
+        - listitem [ref=e66]:
+          - link "FAQ" [ref=e67] [cursor=pointer]:
+            - /url: /static/faq
+        - listitem [ref=e68]:
+          - link "Report a Bug" [ref=e69] [cursor=pointer]:
+            - /url: mailto:admin@habitica.com?subject=Habitica Web Bug Report
+        - listitem [ref=e70]:
+          - link "Request a Feature" [ref=e71] [cursor=pointer]:
+            - /url: https://docs.google.com/forms/d/e/1FAIpQLScPhrwq_7P1C6PTrI3lbvTsvqGyTNnGzp1ugi1Ml0PFee_p5g/viewform?usp=sf_link
+    - generic [ref=e72]:
+      - heading "Developers" [level=3] [ref=e73]
+      - list [ref=e74]:
+        - listitem [ref=e75]:
+          - link "API v3" [ref=e76] [cursor=pointer]:
+            - /url: /apidoc
+        - listitem [ref=e77]: Data Display Tool
+        - listitem [ref=e78]:
+          - link "Guidance for Blacksmiths" [ref=e79] [cursor=pointer]:
+            - /url: https://habitica.fandom.com/wiki/Guidance_for_Blacksmiths
+    - generic [ref=e81]:
+      - heading "Help Support Habitica" [level=3] [ref=e82]
+      - paragraph [ref=e83]: Habitica is an open source project that depends on our users for support. The money you spend on gems helps us keep the servers running, maintain a small staff, develop new features, and provide incentives for our volunteers
+    - button "💜 Donate to Habitica" [ref=e85] [cursor=pointer]:
+      - generic [ref=e86]: 💜 Donate to Habitica
+    - generic [ref=e88]:
+      - heading "Social" [level=3] [ref=e89]
+      - generic [ref=e90]:
+        - link [ref=e91] [cursor=pointer]:
+          - /url: https://www.instagram.com/habitica/
+          - img [ref=e93]
+        - link [ref=e95] [cursor=pointer]:
+          - /url: https://bsky.app/profile/habitica.com
+          - img [ref=e97]
+        - link [ref=e99] [cursor=pointer]:
+          - /url: https://www.facebook.com/Habitica/
+          - img [ref=e101]
+        - link [ref=e103] [cursor=pointer]:
+          - /url: http://blog.habitrpg.com/
+          - img [ref=e105]
+    - separator [ref=e109]
+    - generic [ref=e111]: © 2025 Habitica. All rights reserved.
+    - img [ref=e114]
+    - generic [ref=e116]:
+      - link "Privacy Policy" [ref=e118] [cursor=pointer]:
+        - /url: /static/privacy
+      - link "Terms of Service" [ref=e120] [cursor=pointer]:
+        - /url: /static/terms
+```
