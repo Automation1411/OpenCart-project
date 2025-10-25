@@ -7,8 +7,8 @@ register = new Register(page);
 await register.open();
 await register.getstarted();
 });
-test.only("To verify the Register form with valid crede",async({page}:{page:Page})=>{
-   await register.email("akash1415test@gmail.com");
+test("To verify the Register form with valid crede",async({page}:{page:Page})=>{
+   await register.email("akash1421test@gmail.com");
    await register.password();
    await register.button();
    await register.selectcheckbox();

@@ -1,0 +1,199 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - link [ref=e6] [cursor=pointer]:
+      - /url: /static/home
+      - img [ref=e8]
+    - list [ref=e13]:
+      - listitem [ref=e14]:
+        - link "Get Started" [ref=e15] [cursor=pointer]:
+          - /url: /register
+      - listitem [ref=e16]:
+        - generic [ref=e17] [cursor=pointer]: Mobile Apps
+      - listitem [ref=e18]:
+        - generic [ref=e19] [cursor=pointer]: Learn More
+    - link "Log In" [ref=e20] [cursor=pointer]:
+      - /url: /login
+  - generic [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - img [ref=e28]
+          - heading "Motivate yourself to achieve your goals." [level=1] [ref=e29]
+          - paragraph [ref=e30]: It's time to have fun when you get things done! Join over 4 million Habiticans and improve your life one task at a time.
+        - generic [ref=e31]:
+          - heading "Sign Up For Free" [level=3] [ref=e32]
+          - generic [ref=e33]:
+            - textbox "Email" [ref=e34]
+            - textbox "Password" [ref=e35]
+            - textbox "Confirm Password" [ref=e36]
+            - button "Continue" [disabled] [ref=e37]
+          - generic [ref=e39]: OR
+          - generic [ref=e40]:
+            - button "Continue with Google" [ref=e41] [cursor=pointer]:
+              - img [ref=e43]
+              - text: Continue with Google
+            - button "Continue with Apple" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+              - text: Continue with Apple
+      - img [ref=e55]
+    - generic [ref=e58]:
+      - img [ref=e61]
+      - generic [ref=e63]:
+        - generic [ref=e65]:
+          - heading "Gamify Your Life" [level=2] [ref=e66]
+          - paragraph [ref=e67]: Habitica is a free habit-building and productivity app that treats your real life like a game. With in-game rewards and punishments to motivate you and a strong social network to inspire you, Habitica can help you achieve your goals to become healthy, hard-working, and happy.
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - img [ref=e70]
+            - strong [ref=e71]: Track Your Habits and Goals
+            - paragraph [ref=e72]: Stay accountable by tracking and managing your Habits, Daily goals, and To Do list with Habitica’s easy-to-use mobile apps and web interface.
+          - generic [ref=e73]:
+            - img [ref=e74]
+            - strong [ref=e75]: Earn Rewards for Your Goals
+            - paragraph [ref=e76]: Check off tasks to level up your Avatar and unlock in-game features such as battle armor, mysterious pets, magic skills, and even quests!
+          - generic [ref=e77]:
+            - img [ref=e78]
+            - strong [ref=e79]: Battle Monsters with Friends
+            - paragraph [ref=e80]: Fight monsters with other Habiticans! Use the Gold that you earn to buy in-game or custom rewards, like watching an episode of your favorite TV show.
+      - img [ref=e83]
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - heading "Players Use Habitica to Improve" [level=2] [ref=e90]
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - img [ref=e93]
+            - strong [ref=e94]: Health and Fitness
+            - paragraph [ref=e95]: Never motivated to floss? Can't seem to get to the gym? Habitica finally makes it fun to get healthy.
+          - generic [ref=e96]:
+            - img [ref=e97]
+            - strong [ref=e98]: School and Work
+            - paragraph [ref=e99]: Whether you're preparing a report for your teacher or your boss, it's easy to keep track of your progress as you tackle your toughest tasks.
+          - generic [ref=e100]:
+            - img [ref=e101]
+            - strong [ref=e102]: And much, much more!
+            - paragraph [ref=e103]: Our fully customizable task list means that you can shape Habitica to fit your personal goals. Work on creative projects, emphasize self-care, or pursue a different dream -- it's all up to you.
+      - img [ref=e106]
+      - img [ref=e111]
+    - generic [ref=e113]:
+      - generic [ref=e118]:
+        - heading "Level Up Anywhere" [level=2] [ref=e119]
+        - paragraph [ref=e120]: Our mobile apps make it simple to keep track of your tasks on-the-go. Accomplish your goals with a single tap, no matter where you are.
+        - link [ref=e121] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica
+          - img [ref=e122]
+        - link [ref=e136] [cursor=pointer]:
+          - /url: https://itunes.apple.com/us/app/habitica-gamified-task-manager/id994882113?mt=8
+          - img [ref=e137]
+      - img [ref=e149]
+    - generic [ref=e151]:
+      - generic [ref=e152]:
+        - heading "Join over 4 million people having fun while accomplishing their goals!" [level=3] [ref=e154]
+        - button "Join Habitica Today" [ref=e157] [cursor=pointer]
+        - strong [ref=e160]: Featured in
+      - generic [ref=e163]:
+        - img [ref=e165]
+        - img [ref=e168]
+        - img [ref=e171]
+        - img [ref=e174]
+        - img [ref=e177]
+        - img [ref=e180]
+        - img [ref=e185]
+        - img [ref=e188]
+  - contentinfo [ref=e191]:
+    - generic [ref=e192]:
+      - heading "Product" [level=3] [ref=e193]
+      - list [ref=e194]:
+        - listitem [ref=e195]:
+          - link "iOS App" [ref=e196] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/habitica/id994882113?ls=1&mt=8
+        - listitem [ref=e197]:
+          - link "Android App" [ref=e198] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica
+        - listitem [ref=e199]:
+          - link "Group Plans" [ref=e200] [cursor=pointer]:
+            - /url: /static/group-plans
+        - listitem [ref=e201]:
+          - link "How It Works" [ref=e202] [cursor=pointer]:
+            - /url: /static/features
+    - generic [ref=e203]:
+      - heading "Company" [level=3] [ref=e204]
+      - list [ref=e205]:
+        - listitem [ref=e206]:
+          - link "Contact Us" [ref=e207] [cursor=pointer]:
+            - /url: mailto:admin@habitica.com
+        - listitem [ref=e208]:
+          - link "Press Kit" [ref=e209] [cursor=pointer]:
+            - /url: /static/press-kit
+        - listitem [ref=e210]:
+          - link "Blog" [ref=e211] [cursor=pointer]:
+            - /url: https://habitica.wordpress.com/
+        - listitem [ref=e212]: News
+    - generic [ref=e213]:
+      - heading "Community" [level=3] [ref=e214]
+      - list [ref=e215]:
+        - listitem [ref=e216]:
+          - link "Community Guidelines" [ref=e217] [cursor=pointer]:
+            - /url: /static/community-guidelines
+        - listitem [ref=e218]:
+          - link "Hall of Heroes" [ref=e219] [cursor=pointer]:
+            - /url: /hall/contributors
+        - listitem [ref=e220]:
+          - link "Contributing to Habitica" [ref=e221] [cursor=pointer]:
+            - /url: https://github.com/HabitRPG/habitica/wiki/Contributing-to-Habitica
+        - listitem [ref=e222]:
+          - link "Translate Habitica" [ref=e223] [cursor=pointer]:
+            - /url: https://translate.habitica.com/
+    - generic [ref=e224]:
+      - heading "Support" [level=3] [ref=e225]
+      - list [ref=e226]:
+        - listitem [ref=e227]:
+          - link "FAQ" [ref=e228] [cursor=pointer]:
+            - /url: /static/faq
+        - listitem [ref=e229]:
+          - link "Report a Bug" [ref=e230] [cursor=pointer]:
+            - /url: mailto:admin@habitica.com?subject=Habitica Web Bug Report
+        - listitem [ref=e231]:
+          - link "Request a Feature" [ref=e232] [cursor=pointer]:
+            - /url: https://docs.google.com/forms/d/e/1FAIpQLScPhrwq_7P1C6PTrI3lbvTsvqGyTNnGzp1ugi1Ml0PFee_p5g/viewform?usp=sf_link
+    - generic [ref=e233]:
+      - heading "Developers" [level=3] [ref=e234]
+      - list [ref=e235]:
+        - listitem [ref=e236]:
+          - link "API v3" [ref=e237] [cursor=pointer]:
+            - /url: /apidoc
+        - listitem [ref=e238]: Data Display Tool
+        - listitem [ref=e239]:
+          - link "Guidance for Blacksmiths" [ref=e240] [cursor=pointer]:
+            - /url: https://habitica.fandom.com/wiki/Guidance_for_Blacksmiths
+    - generic [ref=e242]:
+      - heading "Help Support Habitica" [level=3] [ref=e243]
+      - paragraph [ref=e244]: Habitica is an open source project that depends on our users for support. The money you spend on gems helps us keep the servers running, maintain a small staff, develop new features, and provide incentives for our volunteers
+    - button "💜 Donate to Habitica" [ref=e246] [cursor=pointer]:
+      - generic [ref=e247]: 💜 Donate to Habitica
+    - generic [ref=e249]:
+      - heading "Social" [level=3] [ref=e250]
+      - generic [ref=e251]:
+        - link [ref=e252] [cursor=pointer]:
+          - /url: https://www.instagram.com/habitica/
+          - img [ref=e254]
+        - link [ref=e256] [cursor=pointer]:
+          - /url: https://bsky.app/profile/habitica.com
+          - img [ref=e258]
+        - link [ref=e260] [cursor=pointer]:
+          - /url: https://www.facebook.com/Habitica/
+          - img [ref=e262]
+        - link [ref=e264] [cursor=pointer]:
+          - /url: http://blog.habitrpg.com/
+          - img [ref=e266]
+    - separator [ref=e270]
+    - generic [ref=e272]: © 2025 Habitica. All rights reserved.
+    - img [ref=e275]
+    - generic [ref=e277]:
+      - link "Privacy Policy" [ref=e279] [cursor=pointer]:
+        - /url: /static/privacy
+      - link "Terms of Service" [ref=e281] [cursor=pointer]:
+        - /url: /static/terms
+```

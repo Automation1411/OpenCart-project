@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="28.697576">
-<testsuite name="Register\register.spec.ts" timestamp="2025-10-19T22:35:53.040Z" hostname="" tests="1" failures="0" skipped="0" time="25.077" errors="0">
-<testcase name="Register test cases › To verify the Register form with valid crede" classname="Register\register.spec.ts" time="25.077">
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="38.906824">
+<testsuite name="Register\register.spec.ts" timestamp="2025-10-25T13:29:46.164Z" hostname="" tests="2" failures="0" skipped="0" time="34.678" errors="0">
+<testcase name="Register test cases › To verify the Register form with valid crede" classname="Register\register.spec.ts" time="21.451">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|test-results\Register-register-Register-9a97f-ister-form-with-valid-crede\test-finished-1.png]]
@@ -8,6 +8,17 @@
 [[ATTACHMENT|test-results\Register-register-Register-9a97f-ister-form-with-valid-crede\video.webm]]
 
 [[ATTACHMENT|test-results\Register-register-Register-9a97f-ister-form-with-valid-crede\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Register test cases › To verify the resgiter form with inavlid data" classname="Register\register.spec.ts" time="13.227">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Register-register-Register-0e4b2-iter-form-with-inavlid-data\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Register-register-Register-0e4b2-iter-form-with-inavlid-data\video.webm]]
+
+[[ATTACHMENT|test-results\Register-register-Register-0e4b2-iter-form-with-inavlid-data\trace.zip]]
 ]]>
 </system-out>
 </testcase>
